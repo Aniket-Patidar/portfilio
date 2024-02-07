@@ -2,346 +2,335 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Portfolio</title>
     <!-- Required meta tags -->
+    <link rel="icon" type="image/png" href="./Image/LHCJ5v91.ico">
+
+    <script src="https://cdn.tailwindcss.com"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
+
 </head>
 
 <body>
 
-
-    <header>
-        <div id="sound">
-            <audio id="myAudio">
-                <source src="">
-            </audio>
-            <i class="ri-soundcloud-fill"></i>
-            <span>Sound</span>
-            <div class="on-off">
-                <div id="off">OFF</div>
-                <div id="on">On</div>
-            </div>
-        </div>
-        <div class="btn-container">
-            <i class="ri-menu-line i bars"></i>
-            <i class="ri-close-fill i times"></i>
-        </div>
-    </header>
+    <div>
 
 
 
-    <!-- side_bar -->
-    <aside class="aside">
-        <div class="aside-wrapper">
-            <div class="logo-section">
-                <a class="logo" rel="home" href="#">
-                    <img src="./IMG_20220810_014346_118.jpg" alt="logo">
-                    <span>Aniket</span>
-                </a>
-                <span>web Developer</span>
-            </div>
-            <nav class="nav-links">
-                <a href="#home" class="about">About</a>
-                <a href="#myskill">My Skill</a>
-                <a href="#work">Work</a>
-                <a href="#cv">CV</a>
-                <a href="#contract">Contract</a>
-            </nav>
-            <ul class="social-icon">
-                <li>
-                    <a href="https://www.instagram.com/_mr_aniket_patidar">
-                        <i class="ri-instagram-line"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://www.linkedin.com/in/aniket-patidar-0b921b219/">
-                        <i class="ri-linkedin-box-line"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://github.com/anikepa">
-                        <i class="ri-github-fill"></i>
-                    </a>
-                </li>
-
-            </ul>
-
-        </div>
-    </aside>
 
 
-    <!-- section text -->
-    <div id="main">
-
-        <section id="home">
-            <div id="section-home " class="section-home">
-                <div class="text-zone">
-
-                    <h1 class="reuber">Hi, </h1>
-                    <h1 class="reuber">I'm Aniket</h1>
-                    <h1 class="reuber">Web Developer</h1>
-
-                    <p class="gray-text">Front End Developer</p>
-                    <br>
-
-                    <a href="#" class="contract-button">
-                        <div>
-                            <span class="bg"></span>
-                            <span class="base"></span>
-                            <span class="text">Contract me</span>
-                        </div>
-                    </a>
+        <header>
+            <div id="sound">
+                <audio id="myAudio">
+                    <source src="./Night.mp3">
+                </audio>
+                <i class="ri-soundcloud-fill"></i>
+                <span>Sound</span>
+                <div class="on-off">
+                    <div id="off">OFF</div>
+                    <div id="on">On</div>
                 </div>
-        </section>
-        <!-- scroll down -->
-        </्>
-        <div class="scroll-down">
-            <span>scroll down</span>
-            <i class=" ri-arrow-right-line"></i>
-        </div>
-
-        <div class="scroll-down scroll-down-left">
-            <span>scroll down</span>
-            <i class=" ri-arrow-right-line"></i>
-        </div>
+            </div>
+            <div class="btn-container">
+                <i class="ri-menu-line i bars"></i>
+                <i class="ri-close-fill i times"></i>
+            </div>
+        </header>
 
 
 
-        <!-- section my work -->
-        <section id="work" style="overflow: hidden; min-height: 50vh;">
-            <section id="section-work" style="overflow: hidden; min-height: 50vh;">
-                <div id="header">
-                    <h2 class="reuber">Portfolio</h2>
+        <!-- side_bar -->
+        <aside class="aside">
+            <div class="aside-wrapper">
+                <div class="logo-section">
+                    <a class="logo" rel="home" href="#">
+                        <img src="./Image/profile.jpg" class="logoImg" style="width: 100px; height: 100px;" alt="logo">
+                        <span>Aniket</span>
+                    </a>
+                    <span>web Developer</span>
                 </div>
-                <div class="text-zone-2">
-                    <div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aut recusandae natus
-                            dolores
-                            vero
-                            repellendus labore inventore? Quas aut sunt adipisci iusto consequuntur totam tenetur! Lorem
-                            ipsum
-                            dolor sit amet consectetur adipisicing elit. Perspiciatis, magni.<br>
-                            interested to see some more work <a href="#">my work</a> page
-                        </p>
+                <nav class="nav-links">
+                    <a href="#home" class="about">Home</a>
+                    <a href="#about" class="about">About</a>
+                    <a href="#myskill">My Skill</a>
+                    <a href="#work">Work</a>
+                    <a href="./AniketResume.pdf" download="">
+                        Resuma
+                    </a>
+                    <p class="resuma" id="downloadButton">
+                    </p>
+                    <a href="#contract">Contract</a>
+                </nav>
+                <ul class="social-icon">
+                    <li>
+                        <a href="https://www.instagram.com/_mr_aniket_patidar_/">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/aniket-patidar-0b921b219/">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/Aniket-Patidar">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </aside>
+
+
+        <!-- section text -->
+        <div id="main">
+
+            <section id="home">
+                <div id="section-home " class="section-home">
+                    <div class="text-zone">
+
+                        <h1 class="reuber">Hi, </h1>
+                        <h1 class="reuber">I'm Aniket</h1>
+                        <h1 class="reuber">Web Developer</h1>
+
+                        <p class="gray-text">MERN Stack Developer</p>
+                        <br>
+
+                        <a href="#" class="contract-button">
+                            <div>
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Contract
+                                </span>
+                            </div>
+                        </a>
                     </div>
-                    <!-- button -->
-                    <a href="#" class="contract-button">
-                        <div>
-                            <span class="bg"></span>
-                            <span class="base"></span>
-                            <span class="text">Contract me</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="face-big-2">Work</div>
             </section>
 
-        </section>
+            <div class="scroll-down ">
+                <span>scroll down</span>
+                <i class=" ri-arrow-right-line"></i>
+            </div>
 
-        <!-- magic wall section -->
-        <div id="home-magicwall" class="fack-magicwall">
-            <ul>
-                <li>
-                    <div class="magic-wall-item lazyload">
-                        <img src="./Bez-nazwy-3 (1).jpg" alt="">
-                        <div class="hover-content"></div>
-                        <a href="#" class="colorbox">
-                            <h3>see more</h3>
+            <div class="scroll-down scroll-down-left ml-[10px]">
+                <span>scroll down</span>
+                <i class=" ri-arrow-right-line"></i>
+            </div>
+
+            <section id="work" style="overflow: hidden; min-height: 50vh; position: relative;">
+                <section id="section-work" style="overflow: hidden; min-height: 50vh;">
+                    <div id="header">
+                        <h2 class="reuber">Portfolio</h2>
+                    </div>
+                    <div class="text-zone-2">
+                        <div>
+                            <p id="projectDes">
+                                I created a variety of projects to learn quickly and enjoyably. Each project helped me
+                                understand new technologies and concepts in a hands-on way. I liked the process of
+                                making
+                                them and learning from the challenges. These <a href="#">projects</a> not only improved
+                                my
+                                technical skills
+                                but also boosted my creativity and problem-solving abilities.
+                            </p>
+                        </div>
+                        <!-- button -->
+                        <a href="#" class="contract-button">
+                            <div>
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Contract me
+                                    <!-- Contract me -->
+                                </span>
+                            </div>
                         </a>
                     </div>
-                </li>
-                <li>
-                    <div class="magic-wall-item lazyload">
-                        <img src="./Bez-nazwy-3 (1).jpg" alt="">
-                        <div class="hover-content"></div>
-                        <a href="#" class="colorbox">
-                            <h3>see more</h3>
-                        </a>
-                    </div>
-                </li>
- <li>
-                    <div class="magic-wall-item lazyload">
-                        <img src="./Bez-nazwy-3 (1).jpg" alt="">
-                        <div class="hover-content"></div>
-                        <a href="#" class="colorbox">
-                            <h3>see more</h3>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="magic-wall-item lazyload">
-                        <img src="./Bez-nazwy-3 (1).jpg" alt="">
-                        <div class="hover-content"></div>
-                        <a href="#" class="colorbox">
-                            <h3>see more</h3>
-                        </a>
-                    </div>
-                </li>
+                    <div class="face-big-2">Work</div>
+                </section>
+            </section>
 
+            <div id="home-magicwall" class="fack-magicwall">
+                <div class=" projectContainer flex  item-start  flex-wrap  justify-start md:ml-[15px]">
 
-
-            </ul>
-        </div>
-
-        <div class="section-about">
-
-
-            <div class="text-zone-3">
-                <h1 class="reuber">Me Myself and I</h1>
-
-                <p>
-                    I am a Front-End web developer and learning MERN stack from Sheryians Coding School
-                </p>
-                <p>
-                    I am pursuing Bachelor Computer of Application from Lakshmi Narayan College of Technology University
-
-                </p>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti similique ex debitis voluptate cumque numquam suscipit odio magnam vero beatae, obcaecati, accusantium possimus voluptas optio voluptatem. In similique sit deserunt?
-              </p>
-            </div>
-            <div class="skills-chart">
-                <div id="mycanvasContainer">
-                    <canvas width="500" height="500" id="mycanvas">
-                        <ul id="tags">
-                            <li><a href="#" target="_blank">HTML</a></li>
-                            <li><a href="#" target="_blank">css</a></li>
-                            <li><a href="#" target="_blank">js</a></li>
-                            <li><a href="#" target="_blank">nodejs</a></li>
-                            <li><a href="#" target="_blank">mongodb</a></li>
-                            <li><a href="#" target="_blank">express</a></li>
-                            <li><a href="#" target="_blank">HTML</a></li>
-                            <li><a href="#" target="_blank">angular</a></li>
-                            <li><a href="#" target="_blank">react</a></li>
-                            <li><a href="#" target="_blank">HTML</a></li>
-                            <li><a href="#" target="_blank">css</a></li>
-                            <li><a href="#" target="_blank">js</a></li>
-                            <li><a href="#" target="_blank">nodejs</a></li>
-                            <li><a href="#" target="_blank">mongodb</a></li>
-                            <li><a href="#" target="_blank">express</a></li>
-                            <li><a href="#" target="_blank">HTML</a></li>
-                            <li><a href="#" target="_blank">angular</a></li>
-                            <li><a href="#" target="_blank">react</a></li>
-
-                        </ul>
-                        <h1>hey</h1>
-                    </canvas>
                 </div>
             </div>
-        </div>
 
-        <!-- skill -->
-        <div class="skill" id="myskill" style="min-height: 100vh;">
-            <div>
-                <div id="header" class="reuber">
-                    My Skill
-                </div>
-                <p>
-                    
-                </p>
-                <p>
-                    I create successful responsive websites that are fast, easy to use, and built with best practices.
-                    The
-                    main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web
-                    apps,
-                    custom plugins, features, animations, and coding interactive layouts.
-                </p>
-                <p>
-                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus veniam saepe explicabo consequatur dicta, placeat fuga tempore commodi asperiores nihil harum perferendis ipsa quam. Possimus tempora facere eligendi quam maxime!
-                </p>
-                <p>
-                    Visit my <a href="https://www.linkedin.com/in/aniket-patidar-0b921b219/">LinkedIn</a> profile for more details or just <a href="#">contact</a> me.
-                </p>
-            </div>
-            <div id="s-s">
-                <div>
-                    <p id="skill-name">Front-End </p>
-                    <div class="rang">
-                        <div class="r" style="background-color: #08fdd8 ; width: 60%;"></div>
-                    </div>
-<!-- 
-                    <p id="skill-name">Back-End </p>
-                    <div class="rang">
-                        <div class="r" style="background-color: red; width: 50%;"></div>
-                    </div>
+            <div class="section-about">
 
-                    <p id="skill-name">React</p>
-                    <div class="rang">
-                        <div class="r" style="background-color:purple; width: 40%;"></div>
-                    </div> -->
-                </div>
 
-                <div class="skill-box">
-                    <div class="front-dev">
-                        <h4> Frontend developer</h4>
-                        <p> To The End <br>
-                            <span>2017-2018</span>
-                        </p>
-                        <p>                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, exercitationem.
+                <section id="about" class="text-zone-3">
+                    <h1 class="reuber">Me Myself and I</h1>
 
-                        </p>
-                    </div>
-                    <div class="front-dev">
-                        <h4> Frontend developer</h4>
-                        <p> To The End <br>
-                            <span>2017-2018</span>
-                        </p>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, exercitationem.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- contact -->
-        <div class="contract" id="contract" style="min-height: 100vh;">
-            <div>
-                <div id="header" class="reuber">Contract me</div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni totam similique perferendis esse
-                    error
-                    voluptates quae iusto incidunt voluptate molestia
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni totam similique perferendis esse
-                    error
-                    voluptates quae iusto incidunt voluptate molestia
-                </p>
-
-                <form action="">
-                    <input type="text" placeholder="Name">
-                    <input type="text" name="" placeholder="Email" id="">
-                    <input type="text" name="" placeholder="subject" id="">
-                    <textarea name="" placeholder="Message"></textarea>
-                </form>
-
-                <a href="#" class="contract-button">
+                    <p>
+                        I'm a 3rd-year BCA student who loves exploring and learning new things. I've been passionate
+                        about computers since I can remember. I've learned C++ and the MERN stack, which includes
+                        technologies like MongoDB, Express.js, React, and Node.js. With these skills, I've built several
+                        projects, from simple web applications to more complex systems.
+                    </p>
                     <div>
-                        <span class="bg"></span>
-                        <span class="base"></span>
-                        <span class="text">Contract me</span>
-                    </div>
-                </a>
-            </div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.393848733307!2d77.40286881489521!3d23.2651347348309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c683ccfa516d9%3A0xd75dc41cb6832fa!2sNadra%20Bus%20Stand%2C%20Hanumanganj%20Thana%2C%20Hotel%20Panchvati%2C%20Bhopal%2C%20Madhya%20Pradesh%20462001!5e0!3m2!1sen!2sin!4v1678035387200!5m2!1sen!2sin"
-                style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <h1 class="reuber">Education</h1>
 
+                        <div class="eductionItems">
+                            <div>
+                                <h2 class="">Education</h2>
+
+                                <div class="education-details mt-2">
+                                    <h1>Bachelor of Computer Applications</h1>
+                                    <p>
+                                        <strong>University:</strong> LNCT University<br>
+                                        <strong>Duration:</strong> 2021 - 2024<br>
+                                        <strong>Location:</strong> Bhopal<br>
+                                        <strong>CGPA:</strong> 7.8 / 10
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="education-details mt-2">
+                                <h1>12 <sup>th </sup> Commerce</h1>
+                                <p>
+                                    <strong>School:</strong>SGVS<br>
+                                    <strong>Duration:</strong> 2020 - 2021<br>
+                                    <strong>Location:</strong>Sironj<br>
+                                    <strong>Percentage:</strong>82%
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+                <div class="skills-chart">
+                    <div id="mycanvasContainer">
+                        <canvas width="500" height="500" id="mycanvas">
+                            <ul id="tags">
+                                <li><a href="#" target="_blank">HTML</a></li>
+                                <li><a href="#" target="_blank">css</a></li>
+                                <li><a href="#" target="_blank">js</a></li>
+                                <li><a href="#" target="_blank">nodejs</a></li>
+                                <li><a href="#" target="_blank">mongodb</a></li>
+                                <li><a href="#" target="_blank">express</a></li>
+                                <li><a href="#" target="_blank">HTML</a></li>
+                                <li><a href="#" target="_blank">angular</a></li>
+                                <li><a href="#" target="_blank">react</a></li>
+                                <li><a href="#" target="_blank">HTML</a></li>
+                                <li><a href="#" target="_blank">css</a></li>
+                                <li><a href="#" target="_blank">js</a></li>
+                                <li><a href="#" target="_blank">nodejs</a></li>
+                                <li><a href="#" target="_blank">mongodb</a></li>
+                                <li><a href="#" target="_blank">express</a></li>
+                                <li><a href="#" target="_blank">HTML</a></li>
+                                <li><a href="#" target="_blank">angular</a></li>
+                                <li><a href="#" target="_blank">react</a></li>
+
+                            </ul>
+                            <h1>hey</h1>
+                        </canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill" id="myskill" style="min-height: 100vh;">
+                <div>
+                    <div id="header" class="reuber">
+                        My Skill
+                    </div>
+                    <div class="skillContaner md:gap-[10vw] ">
+                            <img src="./Image/HTML_prev_ui.png" alt="">
+                            <img src="./Image/css.png" alt="">
+                            <img src="./Image/JS.png" alt="">
+                            <img src="./Image/react.png" alt="">
+                            <img src="./Image/node.png" alt="">
+                            <img src="./Image/db.png" alt="">
+                            <img src="./Image/c-logo.webp" alt="">
+                            <img src="./Image/git.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="contract" id="contract" style="min-height: 100vh;">
+                <div>
+                    <div id="header" class="reuber">
+                        <a href="#contract">
+                            Contract me
+                        </a>
+                    </div>
+                    <p class="contratText pb-3">Please provide your contact details so that I can connect with
+                        you.<br>
+                        I am currently seeking new
+                        job opportunities, as well as freelancing projects.
+                    </p>
+
+        
+
+                    <form action="https://sheetdb.io/api/v1/7k9k9nf8p2l3n" method="post" id="sheetdb-form">
+                        <input type="text" placeholder="Name" required name="data[name]">
+                        <input type="email" placeholder="Email" required name="data[email]">
+                        <input type="text" placeholder="Subject" required name="data[subject]">
+                        <textarea placeholder="Message"  required name="data[message]"></textarea>
+                     
+                        <button type="submit"  class="contract-button">    
+                            <div>
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">Contract me</span>
+                            </div>
+                     </button>
+                    </form>
+                </div>
+
+
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.393848733307!2d77.40286881489521!3d23.2651347348309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c683ccfa516d9%3A0xd75dc41cb6832fa!2sNadra%20Bus%20Stand%2C%20Hanumanganj%20Thana%2C%20Hotel%20Panchvati%2C%20Bhopal%2C%20Madhya%20Pradesh%20462001!5e0!3m2!1sen!2sin!4v1678035387200!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
         </div>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
-        <script src="./jquery.tagcanvas.js"></script>
-        <script src="./index.js"></script>
+        <script src="./javaScript/jquery.tagcanvas.js"></script>
+        <script src="./javaScript/index.js"></script>
+
+        <script>
+            var form = document.querySelector("#sheetdb-form");
+
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                var submitBtn = form.querySelector('button[type="submit"]');
+                submitBtn.disabled = true;
+                fetch(form.action, {
+                    method: "POST",
+                    body: new FormData(document.getElementById("sheetdb-form")),
+                }).then(res => res.json())
+                    .then((html) => {
+                        console.log("done");
+                        form.reset();
+                        alert("data is submit")
+                        submitBtn.disabled = false;
+                    }).catch(error => {
+                        alert("try again");
+                        console.error('Error submitting the form:', error);
+                        submitBtn.disabled = false;
+                    });
+            });
+
+        </script>
 </body>
 
 </html>
